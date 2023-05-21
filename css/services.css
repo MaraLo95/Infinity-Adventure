@@ -1,0 +1,122 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+.slider {
+  background: white;
+/*  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);*/
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.slider::before, .slider::after {
+/*  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);*/
+  content: "";
+  height: 250px;
+  position: absolute;
+  width: 300px;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(300px * 14);
+}
+.slider .slide {
+  height: 250px;
+  width: 300px;
+ 
+  /*position: relative; 
+  width: 100%; /* for IE 6 */*/
+}
+
+.slide {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.slide h2 {
+color: white;
+}
+
+
+.hi {
+  border: 1px solid red;
+  color: white;
+  z-index: 100;
+}
+
+#zipline {
+  background: url('../img/zipline.jpg');
+    background-size: cover;
+  background-position: center;
+}
+
+#quad {
+  background: url('../img/quad.jpg');
+   background-size: cover;
+  background-position: center;
+} 
+
+#riding {
+  background: url('../img/riding.jpg');
+    background-size: cover;
+  background-position: center;
+}
+#hiking {
+  background: url('../img/hiking.jpg');
+    background-size: cover;
+  background-position: center;
+}
+
+#picnic {
+  background: url('../img/picnic.jpg');
+    background-size: cover;
+  background-position: center;
+}
+
+#e-bike {
+  background: url('../img/ebike.jpg');
+    background-size: cover;
+  background-position: center;
+}
+
+#nevidio {
+  background: url('../img/nevidio.jpg');
+    background-size: cover;
+  background-position: center;
+}
+
+#rafting {
+  background: url('../img/rafting.jpg');
+    background-size: cover;
+  background-position: center;
+}
+
+#viaferata {
+  background: url('../img/climbing.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#paraglide {
+  background: url('../img/paraglide.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
