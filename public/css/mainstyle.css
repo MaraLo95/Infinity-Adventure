@@ -1,0 +1,47 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cardServices img{
+    width: 100%;
+    height: 450px;
+
+}
+.cardServices .card{
+    width: 85%;
+    margin:0 auto 0 auto;
+    border-radius:1rem;
+}
+.cardServices .card-body{
+  padding:10px !important;
+  height: 450px;
+  opacity: 0.8;
+  border-radius:1rem;
+}
+.cardServices .card-text,
+.cardServices .card-header{
+    display:none;
+    color:white;
+    position: absolute;
+    bottom:50;
+    padding:10px;
+    width: 90%;
+    left:5%;
+    text-align: center;
+    background-color: grey;
+    opacity: 0.8;
+    border-radius: 1rem; 
+  }
+  .cardServices .card-header{
+    position: absolute;
+    bottom: 34%;
+  }
+
+.userTable{
+  width: 90% !important;
+  margin: 0 auto 0 auto;
+  border-radius:0.7rem;
+  background-color: white;
+}
