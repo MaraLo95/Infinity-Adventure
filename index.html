@@ -23,16 +23,60 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_99b33ce6e47e06e39a746338c5292f068'
+    });
+</script>
 </head>
 <body>
 
 
     <!-- Navbar Start -->
    <section id="navBar">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+        <a class="navbar-brand logo-image" href="index.html"><img class="logo" src="img/cc.png" alt="alternative"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault navbarNav" >
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">POCETNA <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#intro">AVANTURE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#services">PAKETI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#callMe">KONTAKT</a>
+                </li>
+            </ul>
+            
+        </div>
+    </nav> 
+    <div id="headerr" class="headerr">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="text-container">
+                            <h1>INFINITI <span id="js-rotating">ADVENTURE</span></h1>
+                            <p class="p-heading p-large">AVANTURE I REKREACIJE U PRIRODI</p>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </div> 
+    <!---
     <div class="container-fluid p-0">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+        <nav class="navbar navbar-expand-lg bg-none fixed-top navbar-dark  py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <img src="img/lo.png" alt="logo" class="logo">
+                <img src="img/loggoo.png" alt="logo" class="logo">
             </a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
@@ -59,15 +103,14 @@
         <div class="imageNav">
             <h1 class="heading">Main Heading</h1>
             <p><button class="btn btn-large">Big Button</button></p>
+            
          </div>
-    </div>
+    </div> -->
 </section>
 
 
    
     <!-- Navbar End -->
-
-
     <!-- Header Start -->
     <!---
     <div class="jumbotron jumbotron-fluid position-relative overlay-bottom" style="margin-bottom: 90px;">
@@ -78,21 +121,19 @@
     </div>
 -->
     <!-- Header End -->
-
-<section id="contact">
-   <div class="container-fluid py-5">
-    <div class="container py-5">
+<section id="ponuda" class="py-5">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 mb-lg-0">
-                <h1>DODJITE I OSETITE MOC PRIRODE</h1>
+            <div class="col-lg-3 col-md-3 col-sm-3 mb-lg-0">
+                <h1 class="titleForService">DODJITE I OSETITE</h1> 
+                <h1  class="titleForService"> MOC PRIRODE</h1>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-6 col-md-6 col-sm-6">
                 <div id="slide-left-container">
                     <div class="slide-left">
                     </div>
                 </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-lg-6 col-md-6 col-sm-6">
                   <div id="slide-right-container">
                     <div class="slide-right">
                     </div>
@@ -102,82 +143,155 @@
             </div>
             <div class="col-lg-8 col-md-8 col-sm-8 mb-lg-0">
                   <div id="cards-container">
+                    
                     <div class="cards">
                       <div class="card">
                         <img src="img/courses-1.jpg" class="imgCardCarousel" alt="Animals" style="width:100%">
                         <div class="card-info">
-                            <p class="title">Name Dest</p>
-                            <p class="subtitle">Price</p>
+                            <p class="title">E-Planinski Biciklizam</p>
+                            <p class="subtitle">From 50€</p>
+                            <button class="btn">Rezervisi</button>
                         </div>
                       </div>
                       <div class="card">
                         <img src="img/courses-2.jpg" class="imgCardCarousel" alt="Nature" style="width:100%">
                             <div class="card-info">
-                                <p class="title">Name Dest</p>
-                                <p class="subtitle">Price</p>
+                                <p class="title">Nevidio Kanjon</p>
+                                <p class="subtitle">From 50€</p>
+                                <button class="btn">Rezervisi</button>
                             </div>
                         </div>
                       <div class="card">
                         <img src="img/courses-3.jpg" class="imgCardCarousel" alt="Architecture" style="width:100%">
                             <div class="card-info">
-                                <p class="title">Name Dest</p>
-                                <p class="subtitle">Price</p>
+                                <p class="title">Rafting</p>
+                                <p class="subtitle">From 50€</p>
+                                <button class="btn">Rezervisi</button>
                             </div>
                         </div>
                       
                       <div class="card">
                         <img src="img/courses-4.jpg" class="imgCardCarousel" alt="Technology" style="width:100%">
                             <div class="card-info">
-                                <p class="title">Name Dest</p>
-                                <p class="subtitle">Price</p>
+                                <p class="title">Jahanje Konja</p>
+                                <p class="subtitle">From 50€</p>
+                                <button class="btn">Rezervisi</button>
                             </div>
                         </div>
                       <div class="card">
                         <img src="img/courses-5.jpg" class="imgCardCarousel" alt="People" style="width:100%">
                             <div class="card-info">
-                                <p class="title">Name Dest</p>
-                                <p class="subtitle">Price</p>
+                                <p class="title">Voznja Kvadom</p>
+                                <p class="subtitle">From 50€</p>
+                                <button class="btn">Rezervisi</button>
                             </div>
                         </div>
                       <div class="card">
                         <img src="img/courses-6.jpg" class="imgCardCarousel" alt="Animals" style="width:100%">
                             <div class="card-info">
-                                <p class="title">Name Dest</p>
-                                <p class="subtitle">Price</p>
+                                <p class="title">Planinarenje</p>
+                                <p class="subtitle">From 50€</p>
+                                <button class="btn">Rezervisi</button>
+                             
+                            </div>
+                        </di>
+                      </div>
+                      <div class="card">
+                        <img src="img/courses-6.jpg" class="imgCardCarousel" alt="Animals" style="width:100%">
+                            <div class="card-info">
+                                <p class="title">Kvadovi</p>
+                                <p class="subtitle">From 50€</p>
+                                <button class="btn">Rezervisi</button>
                              
                             </div>
                         </di>
                       </div>
                   </div>
-                </div>
+            </div>
             </div>
         </div>
-    </div>
-   </div>
+    
 </section>
 
 
 <div id="hero" class="hero overlay">
     <div class="hero-content">
-        <div class="hero-text">
-            <h1>Your story begins from here.</h1>
-            <p>Your clients on the internet. Learn how to receive them.</p>
-            <a href="#" class="btn btn-border">Learn more</a>
-        </div><!-- /.hero-text -->
-    </div><!-- /.hero-content -->
-</div><!-- /.hero -->
+    </div>
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide" id="e-bike">
+                <a href="">
+                <h2 class="textOfferCarousel">E-Planinski Biciklizam</h2>
+                <h2 class="textOfferCarousel">50 eur</h2>
+            </a>
+        </div>
+            
+            <div class="slide" id="nevidio">
+                <h2 class="textOfferCarousel">Nevidio Kanjon</h2><br>
+                <h2 class="textOfferCarousel">110 eur </h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+    
+            
+             <div class="slide" id="rafting">
+               <h2 class="textOfferCarousel">Ragting</h2><br>
+                <h2 class="textOfferCarousel">45 eur</h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+        
+          
+            
+            <div class="slide" id="paraglide">
+              <h2 class="textOfferCarousel">Tandem Paraglajding</h2>
+                <h2 class="textOfferCarousel">95 eur</h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+           
+           
+            <div class="slide" id="hiking">
+              <h2 class="textOfferCarousel">Penjanje</h2><br>
+                <h2 class="textOfferCarousel">45 eur</h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+            
+            <div class="slide" id="riding">
+               <h2 class="textOfferCarousel">Jahanje Konja</h2><br>
+                <h2 class="textOfferCarousel">25 eur</h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+             
+           
+          
+             <div class="slide" id="picnic">
+               <h2 class="textOfferCarousel">Piknik</h2><br>
+                <h2 class="textOfferCarousel">10 eur</h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+           
+            <div class="slide" id="quad">
+               <h2 class="textOfferCarousel">Voznja Kvadom</h2><br>
+                <h2 class="textOfferCarousel">50 eur</h2>
+                 <button class="btn btn-primary">Istrazi</button>
+            </div>
+        
+        </div>
+    </div>
+</div> 
 
 
+
+
+<!---
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-lg-6 col-md-6 col-sm-6">
         <div id="slide-left-container" >
             <div class="slide-left left">
             </div>
         </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-6 col-sm-6">
         <div id="slide-right-container" >
             <div class="slide-right right">
             </div>
@@ -240,7 +354,8 @@
 </div>
 </div>
 </div>
-
+-->
+<!---
 <div id="hero" class="hero overlay">
     <div class="hero-content">
         <div class="hero-text">
@@ -248,8 +363,8 @@
         </div>
     </div>
 </div>
-
-
+-->
+<!---
 <div class="container-fluid py-5">
     <div class="container py-5">
         <div class="row">
@@ -265,12 +380,102 @@
             </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-<div class="container-fluid py-5" id="Contact">
+
+    <section id="contact">
+        <div id="form">
+        <div class="contact-wrapper">  
+            <div class="row">
+              
+
+        <div class="col-lg-6 col-md-6 col-sm-6 ">
+            <div class="direct-contact-container ">
+                <div class="col-lg-12 col-md-12 col-sm-12 allLeftSideContact"><br>
+         <div class="logoContact">
+            <img class="logo" src="img/loggoo.png" alt="">
+         </div>
+              <ul class="contact-list">
+                <li class="list-item"><img class="aboutIcons" src="img/map-pin-removebg-preview.png" alt=""> <span class="contact-text place">Zabljak</span></li>
+                
+                <li class="list-item"><img class="aboutIcons" src="img/phone-call-removebg-preview.png" alt=""> <a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></li>
+                
+                <li class="list-item"><img class="aboutIcons" src="img/email-removebg-preview.png" alt=""> <a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></li>
+                
+              </ul>
+      
+              <hr>
+              <ul class="social-media-list">
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <img class="socialIcons" src="img/fb.png" alt=""></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                    <img class="socialIcons" src="img/tw.png" alt=""></a>
+                </li>
+                <li><a href="#" target="_blank" class="contact-icon">
+                 <img class="socialIcons" src="img/in.png" alt=""></a>
+                </li>       
+              </ul>
+              <hr>
+            </div>
+            </div>
+        </div>
+     
+        <div class="col-lg-6 col-md-6 col-sm-6">
+            
+            <form id="contact-form" class="form-horizontal" role="form">
+                <div class="col-lg-12 col-md-12 col-sm-12 allLeftSideContact"><br>
+               <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="form-group">
+             
+                  <input type="text" class="form-control" id="name" placeholder="Ime" name="name" value="" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="form-group">
+          
+                    <input type="text" class="form-control" id="surname" placeholder="Prezime" name="surname" value="" required>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="form-group">
+                
+                  <input type="email" class="form-control" id="email" placeholder="Email" name="email" value="" required>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="form-group">
+            
+                    <input type="text" class="form-control" id="phone" placeholder="Telefon" name="phone" value="" >
+                  </div>
+                </div>
+        </div>
+       <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <textarea class="form-control" rows="5" placeholder="Poruka" name="message" required></textarea>
+          </div>
+          </div>
+          <div class="buttonContact">
+            
+              <input class="btn " type="submit" type="submit" value="Posalji">
+              <span></span>
+              </input>
+            </div>
+            <br>
+            </form>
+          </div>
+        </div>
+        </div>
+        </div></div>
+      </section>  
+        
+        
     <!---  <header>
         </header> -->
-        <div id="form">
+        <!--<div id="form">
             <div class="fish" id="fish"></div>
             <div class="fish" id="fish2"></div>
             <div class="row">
@@ -302,7 +507,6 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="row">
                     <div class="login-box">
-
                         <form class="form">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
@@ -362,7 +566,7 @@
                             </form>
                         </div>
         </div>
-        </div>
+        </div>-->
         </div>
         
         
@@ -439,6 +643,7 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/card.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>
