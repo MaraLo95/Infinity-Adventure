@@ -10,7 +10,7 @@ function updateSliderArrowsStatus(
   ) {
     if (
       $(cardsContainer).scrollLeft() + containerWidth <
-      cardCount * cardWidth + 15
+      cardCount * cardWidth + 8
     ) {
       $("#slide-right-container").addClass("active");
     } else {
@@ -97,4 +97,6 @@ function updateSliderArrowsStatus(
       }
     });
   });
+  
+
   

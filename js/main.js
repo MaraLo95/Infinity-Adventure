@@ -73,7 +73,7 @@
         loop: true,
         nav : true,
         navText : [
-            '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+            '<img src="../img/ll.png">',
             '<i class="fa fa-angle-right" aria-hidden="true"></i>'
         ],
         responsive: {
@@ -167,3 +167,39 @@ if($('#email').val() == "") {
 		
 });
 
+
+
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.elements.name.value = '';
+    e.target.elements.email.value = '';
+    e.target.elements.message.value = '';
+  });
+
+
+  $(".navbar-nav li a").on("click", function(event) {
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+    });
+
+
+    /* Rotating Text - Morphtext */
+	$("#js-rotating").Morphext({
+		// The [in] animation type. Refer to Animate.css for a list of available animations.
+		animation: "fadeIn",
+		// An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+		separator: ",",
+		// The delay between the changing of each phrase in milliseconds.
+		speed: 2000,
+		complete: function () {
+			// Called after the entrance animation is executed.
+		}
+    });
+    
+
+
+
+
+
+    
